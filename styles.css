@@ -140,8 +140,8 @@ header .container .linkes .icons {
   }
 }
 header .container .top {
-  background-color: #1b1b1b;
-  color: var(--p);
+  background-color: var(--main);
+  color: white;
   padding: 10px;
   font-size: 18px;
   border-radius: 50%;

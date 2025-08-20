@@ -281,6 +281,9 @@ header .container .top.active {
     height: 30vh;
     margin-bottom: 20px;
   }
+  .first .container .heroImg img{
+    width: 100%;
+  }
   .first .container .text {
     width: 100%;
     text-align: center;

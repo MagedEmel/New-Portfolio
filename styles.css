@@ -146,8 +146,8 @@ header .container .top {
   font-size: 18px;
   border-radius: 50%;
   position: fixed;
-  bottom: 1%;
-  right: 1%;
+  bottom: 3%;
+  right: 3%;
   display: none;
   cursor: pointer;
 }
@@ -443,8 +443,8 @@ header .container .top.active {
 
   .two .container .outer {
     flex-direction: column; /* فوق بعض */
-    width: 100%;
-    padding: 15px;
+    width: 90%;
+    padding: 10px;
   }
 
   .two .container .outer .left,
@@ -478,18 +478,25 @@ header .container .top.active {
   }
 }
 @media (max-width: 620px) {
-  .two .container h2 {
+  .two .container .outer .left h2{
     font-size: 25px;
   }
   .two .container .outer .left .leftBottom {
     padding: 10px;
+    width: 100%;
+  }
+  .two .container .outer .left .leftBottom h2{
+    font-size: 20px;
   }
   .two .container .outer .left .leftBottom h3 {
-    font-size: 15px;
+    font-size: 11px;
     text-align: justify;
   }
   .two .container .outer .left .leftTop p {
     font-size: 16px;
+  }
+  .two .container .outer .left .leftBottom span{
+    margin-right: 5px;
   }
 }
 /* End Two Section */
@@ -513,6 +520,9 @@ header .container .top.active {
     no-repeat;
   display: inline-block;
   margin-bottom: 20px;
+}
+.three .container > p{
+  text-align: center;
 }
 .three .container .skills {
   display: flex;
@@ -581,6 +591,9 @@ header .container .top.active {
   display: inline-block;
   margin-bottom: 20px;
 }
+.four .container > p{
+  text-align: center;
+}
 .four .container .projects {
   display: flex;
   justify-content: space-between;
@@ -615,6 +628,7 @@ header .container .top.active {
 }
 .four .container .projects .project .text p {
   font-size: 12px;
+  margin-bottom: 12px;
 }
 .four .container .projects .project .text .Name {
   display: flex;
@@ -733,6 +747,8 @@ header .container .top.active {
 }
 @media (max-width: 980px) {
   .five {
+    display: flex;
+    align-items: center;
     height: auto;
     min-height: 100vh;
   }
@@ -766,6 +782,9 @@ header .container .top.active {
     no-repeat;
   display: inline-block;
   margin-bottom: 20px;
+}
+.six .container > p{
+  text-align: center;
 }
 .six .container .timeLine {
   width: inherit;
@@ -820,6 +839,11 @@ header .container .top.active {
   color: var(--p);
   margin-bottom: 10px;
   margin-left: 15px;
+}
+@media (max-width: 700px){
+  .six .container h2{
+    font-size: 30px;
+  }
 }
 @media (max-width: 980px) {
   .six {

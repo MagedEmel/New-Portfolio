@@ -24,3 +24,6 @@ goToTop.onclick = function () {
     top: 0,
   });
 };
+
+let YearInFooter = document.getElementById("YearInFooter");
+YearInFooter.innerHTML = new Date().getFullYear();
